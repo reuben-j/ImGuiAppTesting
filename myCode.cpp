@@ -30,7 +30,7 @@ void RenderUI() {
     }
     ImGui::SameLine();
     ImGui::Text("Counter: %d", counter);
-    ImGui::Text("Reuben is KOOL");
+    ImGui::Text("Reuben is KOOL yeah!");
     
     ImGui::End();
     
