@@ -18,4 +18,5 @@ void RenderUI();
 void RenderNewPage();
 void CalculatorWindow();
 void nameRender();
+void Graph();
 }

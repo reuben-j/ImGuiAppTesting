@@ -13,6 +13,8 @@
 #include <cmath>
 
 
+
+
 using namespace std;
 
 
@@ -30,13 +32,15 @@ void RenderUI() {
     }
     ImGui::SameLine();
     ImGui::Text("Counter: %d", counter);
-    ImGui::Text("Reuben is KOOL yeah!");
+    ImGui::Text("Reuben is KOOL yeah! Nice!");
     
     ImGui::End();
+    
     
 }
 
 void RenderNewPage(){
+    
     ImGui::Begin("Second Page");
     ImGui::Text("Hiya");
     ImGui::End();
@@ -73,7 +77,7 @@ double returnCalc(char operatorSign, double num1, double num2) {
 }
 
 void CalculatorWindow(){
-
+    
     static char operatorCalc;
     static int op = 0;
     static double inputInt1, inputInt2;
@@ -113,12 +117,19 @@ void CalculatorWindow(){
 }
 
 void nameRender(){
+  
     static char name[128];
     ImGui::Text("What is your name?");
     ImGui::InputText("##", name, IM_ARRAYSIZE(name));
     ImGui::Text("Hi %s", name);
+   
+    
+    
+    
+    
+    
 }
 
-}
 
+}
 

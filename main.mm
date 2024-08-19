@@ -85,8 +85,8 @@
     //ImFont* font = io.Fonts->AddFontFromFileTTF("c:\\Windows\\Fonts\\ArialUni.ttf", 18.0f, nullptr, io.Fonts->GetGlyphRangesJapanese());
     //IM_ASSERT(font != nullptr);
     
-    ImFont* mainfont = io.Fonts->AddFontFromFileTTF("//Users//reubenjarvela//Desktop//Swansea-q3pd.ttf", 18.5f);
-    IM_ASSERT(mainfont != nullptr);
+//    ImFont* mainfont = io.Fonts->AddFontFromFileTTF("//Users//reubenjarvela//Desktop//Swansea-q3pd.ttf", 18.5f);
+//    IM_ASSERT(mainfont != nullptr);
     
 }
 
@@ -104,6 +104,7 @@
     myCode::RenderNewPage();
     myCode::CalculatorWindow();
     myCode::nameRender();
+    
    // ImGui::ShowDemoWindow();
     
 
