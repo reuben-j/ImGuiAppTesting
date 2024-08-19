@@ -82,7 +82,7 @@ void CalculatorWindow(){
     static int op = 0;
     static double inputInt1, inputInt2;
     
-    ImGui::Begin("Calculator");
+    ImGui::Begin("Calculator Window");
     
     ImGui::InputDouble("###", &inputInt1);
     
